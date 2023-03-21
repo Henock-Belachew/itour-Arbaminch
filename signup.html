@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="signup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/10facf3afb.js" crossorigin="anonymous"></script>
+    <title>Itour sign up Page</title>
+</head>
+<body>
+      <div class="login">
+     
+      
+        <div class="itourLogo">
+            <div class="logo">
+                <div class="itour">itour</div> 
+                <div class="plIcon"><i class="fa-solid fa-3x fa-plane-departure"></i></div>  
+                </div>
+        </div>
+        
+        
+        
+        
+        <div class="container">
+            <div class="formContainer">
+                <h2 class="loginText">sign up</h2>
+                <form class="form">
+                    <div class="input__box">
+                        <label class="labl-l"  for="phone"> Full Name</label><br>
+                        <input class="inputPlace" type="text" placeholder="Henock Belachew" />
+                    </div>
+                    <div class="input__box">
+                        <label class="labl-2" for="phone" > Email</label><br>
+                       <input class="inputPlace" type="email" placeholder="abd123@gmail.com"  required/>
+                    </div>
+                    <div class="input__box">
+                        <label class="labl-3" for="phone" > Phone</label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+                    </div>
+                   
+                    <div class="input__box">
+                        <label class="labl-4" for="phone" >User Name</label><br>
+                        <input class="inputPlace" type="text" placeholder="Henock" required/>
+
+                    </div>
+                    <div class="input__box">
+                        <label class="labl-5" for="phone" >Password</label><br>
+                        <input class="inputPlace" type="password"  />
+                    </div>
+                    <div class="input__box">
+                        <label class="labl-6" for="phone">Confirm Password</label><br>
+                        <input class="inputPlace" type="password"  required/>
+                    </div>
+
+                </form>
+                <div class="input__box">
+                <button class="SubmitBtn" id="submit">Submit</button>
+                </div>
+                <div class="input__box">
+                    <a href="index.html" target="_parent">Back To Login </a>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+
+    <script src="signup.js"></script>  
+</body>
+</html>

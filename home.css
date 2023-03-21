@@ -1,0 +1,470 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Chivo Mono', monospace;
+    background-color: #1c84c0;
+}
+header{
+    display: flex;
+    font-size: 1em;
+    
+    padding: 30px 10%;
+    background-color: #2479aa;
+}
+nav{
+    font-size: 1em;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+.itourLogo{
+    width: 100px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -31px;
+}
+
+
+.logo{
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    margin-left: 38%;
+    background-color: white; 
+    position: relative;  
+}
+.itour{
+    position: absolute;
+    bottom: -44%;
+    width: 50%;
+    left: -50%;
+    font-weight: bolder;
+}
+
+.plIcon{
+    position: absolute;
+    bottom: -244%;
+    left: -78%;
+}
+.nav_link {
+    float: right;
+    margin-right: 20px;
+}
+.nav_link li {
+   display: inline-block; 
+   line-height: 80px;
+   margin: 0 5px;
+}
+.nav_link li a{
+    color: rgb(207, 207, 207);
+    font-size: 25px;
+    padding: 14px 44px;
+    border-radius: 3px;
+}
+.nav_link li a:hover{
+    background-color: #064163;
+    transition: .5s;
+    color: white;
+}
+.checkBtn{
+    font-size: 50px;
+    color: rgb(207, 207, 207);
+    float: right;
+    line-height: 80px;
+    margin-right:15px;  
+}
+#check{
+    display: none;
+}
+.profile{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+  float: right;
+  margin-left: 150px;
+  
+}
+.profile img{
+  width: 100%;
+  border-radius: 50%;
+}
+.tourcity{
+    width: 20%;
+    height: 10%;
+    font-size: 1em;
+    margin-left: 40%; 
+    text-align: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1272aa;
+}
+h1{
+    color: rgb(207, 207, 207);
+   
+}
+.pack_link{
+    width: 100%;
+    height:20%;
+    width: 98%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+    
+}
+.pack_link li {
+    display: inline-block; 
+    line-height: 80px;
+   margin: 0 5px;
+   font-size: 1.5em;
+}
+.pack_link li a{
+    color: rgb(207, 207, 207);
+    font-size: 25px;
+    padding: 14px 44px;
+    border-radius: 3px;
+    font-size: 1em;
+}
+.pack_link li a:hover{
+    background-color: #064163;
+    transition: .5s;
+    color: white; 
+}
+.container{
+    width: 98%;
+    height: 700px;
+    display: flex;
+    margin-left: 30px;
+    gap: 40px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.container div{
+    padding: 10px;
+}
+.packageBox-1{
+    flex: 1;
+    width: 15%;
+    text-align: center;
+    background-color: #2479aa;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1c6691;
+    color: rgb(207, 207, 207);
+}
+.packageBox-2{
+    flex: 1;
+    width: 15%;
+    background-color: #2479aa;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #1c6691;
+    color: rgb(207, 207, 207);
+    text-align: center;
+
+}
+.packageBox-3{
+    flex: 1;
+    width: 15%;
+    background-color: #2479aa;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #1c6691;
+    color: rgb(207, 207, 207);
+    text-align: center;
+}
+.packageBox-4{
+    flex: 1;
+    width: 15%;
+    background-color: #2479aa;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #1c6691;
+    color: rgb(207, 207, 207);
+    text-align: center;
+}
+.packageBox-5{
+    flex: 1;
+    width: 15%;
+    background-color: #2479aa;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #1c6691;
+    color: rgb(207, 207, 207);
+    text-align: center;
+}
+h3{ 
+    width: 100%;
+}
+.hotelPhoto{
+    display: none;
+}
+.hotelPhoto .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+  }
+  .hotelGallery{
+    width: 100%;
+    height: 480px;
+    margin-top: 52px;
+  }
+  .hotelGallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  #Next{
+   cursor: pointer;
+  position: relative;
+  top: -55%;
+  right: -36%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  
+  background-color: #1974a875;
+  }
+  #Prev{
+    cursor: pointer;
+    position: relative;
+    top: -55%;
+    left: -34%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    
+    background-color: #1974a875;
+  }
+  .aboutHotel{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    border: none;
+  }
+  .nearbayAttraction{
+    width: 100%;
+    height: 700px;
+    
+    margin-top: 60px;
+  }
+  .nearby{
+    font-size: 1.5rem;
+    margin: 20px;
+    color: white;
+  }
+  .attractions{
+    width: 97%;
+    height: 88%;
+    
+    display: flex;
+    margin-left: 30px;
+    gap: 40px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+  }
+  .attractions div{
+    padding: 10px;
+}
+.tourGallery{
+    width: 100%;
+    height: 400px;
+    margin-top: 52px;
+  }
+.tourGallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  .attractions #prev{
+    top: -35%;
+    left: -14%;
+  }
+.attraction1{
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    background-color: #2479aa;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1c6691;
+    margin: 10px;
+    color: rgb(207, 207, 207);   
+}
+.attraction2{
+    flex: 1;
+    width: 200%;
+    text-align: center;
+    background-color: #2479aa;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1c6691;
+    color: rgb(207, 207, 207);   
+}
+.attraction3{
+    flex: 1;
+    width: 200%;
+    text-align: center;
+    background-color: #2479aa;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1c6691;
+    color: rgb(207, 207, 207);   
+}
+  footer{
+    background-color: #2479aa;
+    margin-top: 20px;
+    height: 275px;
+    
+  }
+.main-container{
+    display: flex;
+}
+.main-container .box1{
+    flex-basis: 50%;
+    padding: 10px 20px;
+    
+}
+.box1 .h3{
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.box1 .content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.box1 .content:before{
+ position: absolute;
+ content: '';
+ top: -10px;
+ height: 2px;
+ width: 5%;
+ background-color: #000000;
+}
+
+.box1 .social{
+    width: 50%;
+    margin-top: 5%;
+    
+  }
+  .box1 .social .sociaicon {
+    color: black;
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+
+  .box1 .social a .sociaicon:hover{
+    color: rgb(197, 193, 193);
+  }
+  .main-container .box2{
+    flex-basis: 25%;
+    padding: 10px 20px;
+    
+    
+}
+.main-container .box2 .content{
+    display: block;
+    padding-top: 20px;
+}
+.main-container .box2 .content .place{
+    margin-top: 30px;
+}
+.main-container .box2 .content .phone{
+    margin-top: 30px;
+}
+.main-container .box2 .content .email{
+    margin-top: 30px;
+    font-size: 1.2em;
+    
+}
+.box2 .content:before{
+    float: left;
+    margin-top: -19px;
+    content: '';
+    top: -1px;
+    height: 2px;
+    width: 8%;
+    background-color: #000000;
+   }
+
+
+.main-container .box3{
+  flex-basis: 25%;
+  padding: 10px 20px;
+  
+  
+}
+.main-container .box3 .content{
+    display: block;
+    padding-top: 20px;
+}
+.box3 .content:before{
+    float: left;
+    margin-top: -19px;
+    content: '';
+    top: -1px;
+    height: 2px;
+    width: 10%;
+    background-color: #000000;
+   }
+.box3 form .text{
+    width: 50%;
+    font-size: 1.0625rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  .box3 form .msg{
+    margin-top: 10px;
+    width: 50%;
+    
+  }
+  .box3 form input, .box3 form textarea{
+    width: 50%;
+    font-size: 1.0625rem;
+    background: #ece8e8;
+    padding-left: 10px;
+    
+    
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .box3 form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #125074;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+  }
+  .box3 form .btn button:hover{
+    background: #000;
+  }
